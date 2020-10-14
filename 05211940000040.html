@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center p-3 my-3 bg-dark text-white"> 
+  <h1>Welcome to My First Page</h1>
+  <p> Raffly Andico D. / 05211940000040 / PWEB D</p> 
+</div>
+ <div class="alert alert-success alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Thanks for your attention!</strong> tetep dijaga semangatnyaa :).
+  </div>
+<div id="demo" class="carousel slide text-center" data-ride="carousel" >
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="1.jpg" alt="1" width="800" height="600">
+    </div>
+    <div class="carousel-item">
+      <img src="2.jpg" alt="2" width="800" height="600">
+    </div>
+    <div class="carousel-item">
+      <img src="3.jpg" alt="3" width="800" height="600">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+  
+
+<div class="container">
+  <h2>Progress scroll this page</h2>
+  <div class="progress">
+    <div class="progress-bar" style="width:80%">80%</div>
+  </div>
+</div>
+<div class="container">
+  <p>Jika berkenan silahkan meninggalkan komentar dibawah ini.</p>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Comment:</label>
+      <input type="comment" class="form-control" id="comment" placeholder="Enter your comment" name="comment">
+    </div>
+ 
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
+</body>
+</html>
